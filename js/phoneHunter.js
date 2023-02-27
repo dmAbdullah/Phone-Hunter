@@ -105,7 +105,7 @@ const displayPhoneDetails = phone => {
     const modalTitle = document.getElementById('phoneDetailsLabel');
     modalTitle.innerText = phone.name;
     const phoneDetails = document.getElementById('phone-details');
-    phoneDetails.innerText = `Relies Date: ${phone.releaseDate ? phone.releaseDate : 'No release Date found'}`
+    phoneDetails.innerText~ = `${phone.releaseDate ? phone.releaseDate : 'No release Date found'}`
 }
 
 loadPhone('iPhone');
